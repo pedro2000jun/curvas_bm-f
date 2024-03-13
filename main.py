@@ -27,7 +27,7 @@ def separate_data (vet, dc, base_252, base_360):
     dc.append(vet[i])
     base_252.append(vet[i+1])
     base_360.append(vet[i+2])
-    i = i + 2
+    i = i + 3
 
 def adjust_data(obj):
   vet = []
