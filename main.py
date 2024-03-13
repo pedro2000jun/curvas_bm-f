@@ -22,7 +22,8 @@ def clean_data (str_in):
   return float(aux)
     
 def separate_data (vet, dc, base_252, base_360):
-  for i in range(0, len(vet)-2):
+  i = 0
+  while i <= len(vet)-2:
     dc.append(vet[i])
     base_252.append(vet[i+1])
     base_360.append(vet[i+2])
